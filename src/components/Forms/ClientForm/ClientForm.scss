@@ -1,0 +1,37 @@
+@import '../../../scss/index.scss';
+
+.register-user {
+	width: 300px;
+	background-color: $white;
+	padding: 2rem;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid $gray-light;
+	padding: 1rem;
+	border-radius: 10px;
+
+	&__form {
+		width: 100%;
+	}
+
+	& > h1 {
+		font-size: 1.5rem;
+		color: $primary;
+	}
+}
+
+.btn-primary {
+	width: 100%;
+}
+.input-textarea {
+	color: $dark !important;
+}
+.ui.toggle.checkbox input:checked,
+.ui.toggle.checkbox input:checked ~ .box:before,
+.ui.toggle.checkbox input:checked ~ label:before {
+	background: $primary !important;
+}

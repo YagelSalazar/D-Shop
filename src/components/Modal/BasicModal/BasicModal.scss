@@ -1,0 +1,37 @@
+@import '../../../scss/index.scss';
+
+.ui.modal.basic-modal {
+	background-color: $white;
+
+	.header {
+		text-align: center;
+		color: $dark;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		h3 {
+			margin: 0;
+		}
+
+		i {
+			position: absolute;
+			right: 10px;
+			top: 8px;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	.content {
+		color: $gray;
+		background-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

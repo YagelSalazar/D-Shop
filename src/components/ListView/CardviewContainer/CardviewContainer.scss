@@ -1,0 +1,13 @@
+@import '../../../scss/index.scss';
+
+.card-view {
+	width: 100%;
+	height: 80vh;
+	border-radius: 10px;
+	padding: 0;
+	overflow: auto !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}

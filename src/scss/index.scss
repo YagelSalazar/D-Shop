@@ -1,0 +1,30 @@
+@import './colors';
+@import './sizes';
+@import './typography';
+@import './components';
+@import './utils';
+
+.Toastify {
+	// width: 100%;
+	&__toast-container--top-center {
+		// width: 100%;
+		// top: 0;
+		// left: 0;
+		// padding: 0;
+		// margin: 0;
+		.Toastify__toast--success {
+			background-color: $success;
+
+			.Toastify__close-button {
+				align-self: center;
+			}
+		}
+		.Toastify__toast--error {
+			background-color: $danger;
+
+			.Toastify__close-button {
+				align-self: center;
+			}
+		}
+	}
+}

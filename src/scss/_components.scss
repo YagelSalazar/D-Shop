@@ -1,0 +1,46 @@
+@import './colors';
+
+.btn-primary {
+	background-color: $primary !important;
+	color: $white !important;
+	font-weight: 700 !important;
+	border-radius: 10px !important;
+
+	&:hover {
+		background-color: rgba($primary, 0.9) !important;
+	}
+}
+
+.input-checkbox {
+	& > label {
+		color: $dark !important;
+	}
+}
+
+.form {
+	.field {
+		input,
+		.dropdown {
+			border-radius: 10px !important;
+			color: $dark !important;
+		}
+	}
+}
+
+.link-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	&__text {
+		color: $dark;
+		width: 100%;
+		text-align: center;
+
+		&:hover {
+			cursor: pointer;
+			color: $primary;
+		}
+	}
+}

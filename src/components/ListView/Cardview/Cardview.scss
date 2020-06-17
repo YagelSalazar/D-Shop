@@ -1,0 +1,105 @@
+@import '../../../scss/index.scss';
+
+.card-view__item {
+	width: 30%;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1rem;
+	border-radius: 10px;
+	border: 1px solid $gray-light;
+	margin: 0.5rem;
+
+	&:hover {
+		cursor: pointer;
+		box-shadow: $sh-small;
+	}
+
+	&-avatar {
+		min-width: 100px;
+		min-height: 100px;
+		max-width: 100px;
+		max-height: 100px;
+		background-color: rgba($gray-light, 0.2);
+		border-radius: 100px;
+		padding: 1rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+
+		> img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	}
+
+	&-name {
+		text-align: center;
+		width: 100%;
+		height: 200px;
+		color: $dark;
+		font-size: 0.9rem;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin: 0.5rem;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&-actions {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.content-detail {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__avatar {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0rem 2rem 0rem 0rem;
+		flex: 40% 0 0;
+
+		> img {
+			display: block;
+			width: 200px;
+			height: 200px;
+			border-radius: 100%;
+			border: 1px solid $gray-light;
+		}
+	}
+
+	&__info {
+		flex: 1;
+		ul {
+			list-style: none;
+			color: $dark;
+			> li {
+				margin: 0.5rem;
+				> b {
+					color: $primary;
+					margin-right: 0.5rem;
+				}
+			}
+		}
+	}
+}
+
+.modal-delete {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

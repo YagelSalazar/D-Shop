@@ -1,0 +1,37 @@
+@import '../../../scss/index.scss';
+
+.login-form {
+	width: 300px;
+	background-color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem 2rem;
+	border-radius: 20px;
+
+	&__content {
+		width: 100%;
+	}
+
+	&__logo {
+		width: 100px;
+		height: 100px;
+	}
+
+	&__title {
+		font-size: 1.5rem;
+		color: $dark;
+	}
+
+	&__forgot-text {
+		color: $dark;
+		width: 100%;
+		text-align: center;
+
+		&:hover {
+			cursor: pointer;
+			color: $primary;
+		}
+	}
+}

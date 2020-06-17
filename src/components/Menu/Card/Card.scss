@@ -1,0 +1,27 @@
+@import '../../../scss/index.scss';
+
+.menu-card {
+	width: 200px;
+	height: 230px;
+	border: 1px solid $gray-light;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s;
+
+	&__img {
+		width: 150px;
+		height: 150px;
+	}
+
+	&__title {
+		font-size: 1.5rem;
+		color: $primary;
+	}
+
+	&:hover {
+		box-shadow: $sh-small;
+	}
+}

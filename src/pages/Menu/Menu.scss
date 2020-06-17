@@ -1,0 +1,20 @@
+@import '../../scss/index.scss';
+
+.grid-menu {
+	min-height: 93vh !important;
+	width: 100% !important;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	> .ui.grid {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+	}
+}

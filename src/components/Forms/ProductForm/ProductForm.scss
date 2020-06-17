@@ -1,0 +1,52 @@
+@import '../../../scss/index.scss';
+
+.register-user {
+	width: 300px;
+	background-color: $white;
+	padding: 2rem;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid $gray-light;
+	padding: 1rem;
+	border-radius: 10px;
+
+	&__form {
+		width: 100%;
+	}
+
+	& > h1 {
+		font-size: 1.5rem;
+		color: $primary;
+	}
+}
+
+.btn-primary {
+	width: 100%;
+}
+
+.upload-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+	.upload-image__content {
+		display: flex;
+		margin: 0 !important;
+		border: 2px solid $gray-light;
+		border-style: dashed;
+		border-radius: 15px;
+		padding: 7px;
+		cursor: pointer;
+
+		.ui.image {
+			width: 100px !important;
+			border-radius: 15px !important;
+			filter: opacity(0.4);
+		}
+	}
+}

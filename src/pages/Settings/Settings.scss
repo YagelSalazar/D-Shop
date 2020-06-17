@@ -1,0 +1,52 @@
+@import '../../scss/index.scss';
+
+.settings-grid {
+	min-height: 93vh !important;
+	max-height: 93vh !important;
+	width: 100% !important;
+	padding: 0 !important;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	> .ui.grid {
+		padding: 0 !important;
+		width: 100%;
+
+		> .row.settings-grid__title {
+			height: 50px;
+			padding: 0 0 0 1.5rem;
+			position: absolute;
+			z-index: 10;
+			top: -7vh;
+			left: 4rem;
+
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			align-self: flex-start !important;
+
+			> img {
+				width: 30px;
+				height: 30px;
+			}
+
+			> h1 {
+				color: $primary;
+				font-size: 1.5rem;
+				margin: 0 0 0 0.5rem;
+			}
+		}
+
+		> .row.settings-grid__content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			padding: 1rem;
+		}
+	}
+}

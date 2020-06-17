@@ -1,0 +1,9 @@
+@import './colors';
+
+.error-text {
+	color: $danger;
+	font-size: 10px;
+	font-style: bold;
+	margin-left: 0.5rem;
+	margin-top: -5px;
+}

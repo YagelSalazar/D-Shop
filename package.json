@@ -1,0 +1,54 @@
+{
+	"name": "paleteria",
+	"version": "0.1.0",
+	"private": true,
+	"main": "src/electron.js",
+	"dependencies": {
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"electron-is-dev": "^1.2.0",
+		"firebase": "^7.14.4",
+		"lodash": "^4.17.15",
+		"moment": "^2.26.0",
+		"node-sass": "^4.14.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-dropzone": "^11.0.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "3.4.1",
+		"semantic-ui-css": "^2.4.1",
+		"semantic-ui-react": "^0.88.2",
+		"uuid": "^8.1.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"electron-dev": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && electron .\""
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"concurrently": "^5.2.0",
+		"electron": "^8.3.0",
+		"electron-builder": "^22.6.1",
+		"react-hook-form": "^5.7.2",
+		"react-toastify": "^6.0.4",
+		"wait-on": "^5.0.0"
+	}
+}

@@ -1,0 +1,13 @@
+@import '../../../scss/index.scss';
+
+.modal-form {
+	width: 100%;
+	& > h1 {
+		font-size: 1.5rem;
+		color: $primary;
+	}
+
+	&__content {
+		width: 100%;
+	}
+}

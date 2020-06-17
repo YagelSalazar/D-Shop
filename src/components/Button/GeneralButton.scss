@@ -1,0 +1,35 @@
+@import '../../scss/index.scss';
+
+.ui.button {
+	border-radius: 10px !important;
+	position: relative;
+	&.button- {
+		&success {
+			background-color: $success;
+			color: $white;
+		}
+		&danger {
+			background-color: $danger;
+			color: $white;
+		}
+		&warning {
+			background-color: $warning;
+			color: $white;
+		}
+
+		&size {
+			&__sm {
+				width: 30px !important;
+				height: 35px !important;
+			}
+		}
+	}
+	> i {
+		position: absolute;
+		top: 12px;
+		left: 13px;
+		color: $white;
+		font-size: 1.5rem;
+		display: block;
+	}
+}

@@ -1,0 +1,24 @@
+@import '../../../scss/index.scss';
+
+.user-avatar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	&__image {
+		border: 1px outset $gray-light;
+		border-radius: 100%;
+
+		> img {
+			width: 170px;
+			height: 170px;
+			border-radius: 100%;
+			display: block;
+		}
+	}
+
+	> span {
+		margin: 0.5rem 0rem 2rem 0rem;
+		color: $dark;
+	}
+}
