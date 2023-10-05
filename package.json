@@ -45,7 +45,7 @@
 	},
 	"devDependencies": {
 		"concurrently": "^5.2.0",
-		"electron": "^8.3.0",
+		"electron": "^22.3.25",
 		"electron-builder": "^22.6.1",
 		"react-hook-form": "^5.7.2",
 		"react-toastify": "^6.0.4",
